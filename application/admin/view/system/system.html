@@ -1,0 +1,111 @@
+{include  file="public/header"  title="系统设置-企业网站管理后台"  /}
+
+
+    <div class="container-fluid">
+      <div class="row">
+
+
+{include  file="public/left"  /}
+   <script type="text/javascript">
+     
+     $(".gaoliang .nav:eq(0) li:eq(0)").addClass('active');
+  
+   </script>
+
+  <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">系统设置</h1>
+
+<form class="form-horizontal" method="post" action="{:url('save')}" id="cess"  role="form"   style="margin-top:80px">
+  <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">网站标题</label>
+    <div class="col-sm-10">
+      <input class="form-control" name="title" value="{$system.title}" type="text" id="formGroupInputLarge" placeholder="网站标题">
+    </div>
+  </div>
+
+    <div class="form-group form-group-lg">
+    <label class="text-left col-sm-1 control-label " for="formGroupInputLarge">关键字</label>
+    <div class="col-sm-10">
+      <input class="form-control"  name="keywords" value="{$system.keywords}" type="text" id="formGroupInputLarge" placeholder="关键字">
+    </div>
+  </div>
+
+
+      <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">网站描述</label>
+    <div class="col-sm-10">
+      <input class="form-control" name="description"  value="{$system.description}" type="text" id="formGroupInputLarge" placeholder="网站描述">
+    </div>
+  </div>
+
+    <div class="form-group form-group-lg" >
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">LOGO</label>
+    
+    <div class="col-sm-10">
+                   <div class="col-md-4 input-group">
+                <input id="lefile" type="file" name="image" style="display:none">
+                <span class="input-group-addon" onclick="$('input[id=lefile]').click();" style="cursor: pointer; background-color: #e7e7e7"><i class="fa fa-folder-open"></i>选择</span>
+                <input id="photoCover" name="icon" class="form-control" type="text" value="{$system.icon}" name="icon" >
+                
+                <span class="input-group-addon ut2" style="width:80px;cursor: pointer;pointer-events: auto;" ><i class="fa fa-folder-open"></i>点击上传</span>
+
+              </div> 
+              <label id="targetwz" for="inputPassword" style="color:#f00" class="sr-only">*请选择文件</label> 
+    </div>
+
+  </div>
+
+
+
+
+
+
+      <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">电话号码</label>
+    <div class="col-sm-10">
+      <input class="form-control" name="tel" value="{$system.tel}" type="text" id="formGroupInputLarge" placeholder="电话号码">
+    </div>
+  </div>
+
+      <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">企业名称</label>
+    <div class="col-sm-10">
+      <input class="form-control" name="company" value="{$system.company}" type="text" id="formGroupInputLarge" placeholder="企业名称">
+    </div>
+  </div>
+
+      <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">企业地址</label>
+    <div class="col-sm-10">
+      <input class="form-control" name="address" value="{$system.address}" type="text" id="formGroupInputLarge" placeholder="企业地址">
+    </div>
+  </div>
+
+      <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">邮政编码</label>
+    <div class="col-sm-10">
+      <input class="form-control" name="zipcode" value="{$system.zipcode}" type="text" id="formGroupInputLarge" placeholder="邮政编码">
+    </div>
+  </div>
+      <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">企业邮箱</label>
+    <div class="col-sm-10">
+      <input class="form-control" name="email" value="{$system.email}" type="text" id="formGroupInputLarge" placeholder="请输入企业邮箱">
+    </div>
+  </div>
+ <div class="form-group form-group-lg">
+ <label class="col-sm-1 control-label sr-only" for="formGroupInputLarge">提交修改按钮</label>
+   <div class="col-sm-10">
+   <button href="#" class="button button-3d button-primary button-rounded">保存</button>
+   </div>
+     </div>
+
+</form>
+
+        </div>
+      </div>
+    </div>
+
+{include file="public/footer" /}
+  </body>
+</html>

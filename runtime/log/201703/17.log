@@ -1,0 +1,2529 @@
+[ 2017-03-17T08:34:34+08:00 ] 183.56.148.206 112.16.48.132 GET /favicon.ico
+[ log ] o.dqzd.com/favicon.ico [运行时间：0.018994s][吞吐率：52.65req/s] [内存消耗：1,579.55kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-17T08:34:34+08:00 ] 183.56.148.206 112.16.48.132 GET /favicon.ico
+[ log ] o.dqzd.com/favicon.ico [运行时间：0.017368s][吞吐率：57.58req/s] [内存消耗：1,579.45kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:00+08:00 ] 183.56.148.206 183.130.91.112 GET /
+[ log ] o.dqzd.com/ [运行时间：0.043833s][吞吐率：22.81req/s] [内存消耗：3,292.55kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/index/index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000454s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001161s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.000893s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.000842s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.000282s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:05+08:00 ] 183.56.148.206 183.130.91.112 GET /favicon.ico
+[ log ] o.dqzd.com/favicon.ico [运行时间：0.020158s][吞吐率：49.61req/s] [内存消耗：1,569.52kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:05+08:00 ] 183.56.148.206 183.130.91.112 GET /favicon.ico
+[ log ] o.dqzd.com/favicon.ico [运行时间：0.018629s][吞吐率：53.68req/s] [内存消耗：1,569.55kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:05+08:00 ] 183.56.148.206 183.130.91.112 GET /pro1/1
+[ log ] o.dqzd.com/pro1/1 [运行时间：0.052116s][吞吐率：19.19req/s] [内存消耗：3,343.64kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'tid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro1.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=1 ) [ RunTime:0.000239s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:08+08:00 ] 183.56.148.206 183.130.91.112 GET /pro1/favicon.ico
+[ log ] o.dqzd.com/pro1/favicon.ico [运行时间：0.042663s][吞吐率：23.44req/s] [内存消耗：3,398.41kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/pro1/1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'tid' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000560s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001136s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000213s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'[/www/wwwroot/o.dqzd.cpm/thinkphp/library/think/db/Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:10+08:00 ] 183.56.148.206 183.130.91.112 GET /news
+[ log ] o.dqzd.com/news [运行时间：0.055509s][吞吐率：18.02req/s] [内存消耗：3,639.18kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/News/index/index',
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/pro1/1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\News->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/News.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/news/news.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000543s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001164s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.001146s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.001117s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wb_article` WHERE  `show` = 1  AND `lid` = 1 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` WHERE  `show` = 1  AND `lid` = 1 ORDER BY id desc LIMIT 0,6 [ RunTime:0.000414s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:10+08:00 ] 183.56.148.206 183.130.91.112 GET /static/home//static/home/js/jQuery.BlackAndWhite.min.js
+[ log ] o.dqzd.com/static/home//static/home/js/jQuery.BlackAndWhite.min.js [运行时间：0.021537s][吞吐率：46.43req/s] [内存消耗：1,569.56kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/news',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:21+08:00 ] 183.56.148.206 183.130.91.112 GET /pro
+[ log ] o.dqzd.com/pro [运行时间：0.036765s][吞吐率：27.20req/s] [内存消耗：3,330.08kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/news',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000512s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001069s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000234s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:25+08:00 ] 183.56.148.206 183.130.91.112 GET /pro
+[ log ] o.dqzd.com/pro [运行时间：0.040753s][吞吐率：24.54req/s] [内存消耗：3,329.81kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/pro',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000430s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001113s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000499s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:25+08:00 ] 183.56.148.206 183.130.91.112 GET /pro1/2
+[ log ] o.dqzd.com/pro1/2 [运行时间：0.038631s][吞吐率：25.89req/s] [内存消耗：3,340.41kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/pro',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'tid' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro1.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000426s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001526s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=2 ) [ RunTime:0.000233s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:28+08:00 ] 183.56.148.206 183.130.91.112 GET /pro1/favicon.ico
+[ log ] o.dqzd.com/pro1/favicon.ico [运行时间：0.041622s][吞吐率：24.03req/s] [内存消耗：3,398.41kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/pro1/2',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'tid' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000940s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001210s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000221s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'[/www/wwwroot/o.dqzd.cpm/thinkphp/library/think/db/Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:28+08:00 ] 183.56.148.206 183.130.91.112 GET /pro
+[ log ] o.dqzd.com/pro [运行时间：0.041106s][吞吐率：24.33req/s] [内存消耗：3,329.68kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/pro1/2',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000841s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001289s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000787s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000340s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:29+08:00 ] 183.56.148.206 183.130.91.112 GET /pro1/4
+[ log ] o.dqzd.com/pro1/4 [运行时间：0.041225s][吞吐率：24.26req/s] [内存消耗：3,337.30kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/pro',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'tid' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro1.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001236s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=4 ) [ RunTime:0.000230s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:31+08:00 ] 183.56.148.206 183.130.91.112 GET /pro1/favicon.ico
+[ log ] o.dqzd.com/pro1/favicon.ico [运行时间：0.046238s][吞吐率：21.63req/s] [内存消耗：3,398.41kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/pro1/4',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'tid' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001219s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001318s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000964s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000431s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'[/www/wwwroot/o.dqzd.cpm/thinkphp/library/think/db/Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:33+08:00 ] 183.56.148.206 183.130.91.112 GET /news
+[ log ] o.dqzd.com/news [运行时间：0.044277s][吞吐率：22.59req/s] [内存消耗：3,435.24kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/News/index/index',
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/pro1/4',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\News->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/News.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/news/news.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000507s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001110s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.001100s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wb_article` WHERE  `show` = 1  AND `lid` = 1 LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` WHERE  `show` = 1  AND `lid` = 1 ORDER BY id desc LIMIT 0,6 [ RunTime:0.000314s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:33+08:00 ] 183.56.148.206 183.130.91.112 GET /static/home//static/home/js/jQuery.BlackAndWhite.min.js
+[ log ] o.dqzd.com/static/home//static/home/js/jQuery.BlackAndWhite.min.js [运行时间：0.016100s][吞吐率：62.11req/s] [内存消耗：1,579.40kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/news',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:39+08:00 ] 183.56.148.206 183.130.91.112 GET /contact
+[ log ] o.dqzd.com/contact [运行时间：0.042377s][吞吐率：23.60req/s] [内存消耗：3,447.35kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/About/contact/index',
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/news',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->contact[ /www/wwwroot/o.dqzd.cpm/application/index/controller/About.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/about/contact.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001121s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_page` [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_page` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000211s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:44:44+08:00 ] 183.56.148.206 183.130.91.112 GET /
+[ log ] o.dqzd.com/ [运行时间：0.040147s][吞吐率：24.91req/s] [内存消耗：3,292.98kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/contact',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/index/index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000605s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001194s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.001133s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.000263s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:45:11+08:00 ] 183.56.148.206 183.130.91.112 GET /contact
+[ log ] o.dqzd.com/contact [运行时间：0.044083s][吞吐率：22.68req/s] [内存消耗：3,245.12kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/About/contact/index',
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->contact[ /www/wwwroot/o.dqzd.cpm/application/index/controller/About.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/about/contact.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000687s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001062s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_page` [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_page` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000227s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:45:14+08:00 ] 183.56.148.206 183.130.91.112 GET /news
+[ log ] o.dqzd.com/news [运行时间：0.050165s][吞吐率：19.93req/s] [内存消耗：3,435.24kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/News/index/index',
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/contact',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\News->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/News.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/news/news.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000527s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001463s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wb_article` WHERE  `show` = 1  AND `lid` = 1 LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` WHERE  `show` = 1  AND `lid` = 1 ORDER BY id desc LIMIT 0,6 [ RunTime:0.000428s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:45:15+08:00 ] 183.56.148.206 183.130.91.112 GET /static/home//static/home/js/jQuery.BlackAndWhite.min.js
+[ log ] o.dqzd.com/static/home//static/home/js/jQuery.BlackAndWhite.min.js [运行时间：0.017390s][吞吐率：57.50req/s] [内存消耗：1,579.40kb] [文件加载：32]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/news',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-17T15:45:22+08:00 ] 183.56.148.206 183.130.91.112 GET /index.html
+[ log ] o.dqzd.com/index.html [运行时间：0.046688s][吞吐率：21.42req/s] [内存消耗：3,297.46kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/news',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/index/index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001180s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.001247s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.001051s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.000330s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:45:42+08:00 ] 183.56.148.206 183.130.91.112 GET /
+[ log ] o.dqzd.com/ [运行时间：0.043340s][吞吐率：23.07req/s] [内存消耗：3,293.13kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/index/index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000427s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001120s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.001219s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.000336s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:45:55+08:00 ] 183.56.148.206 183.130.91.112 GET /about
+[ log ] o.dqzd.com/about [运行时间：0.042538s][吞吐率：23.51req/s] [内存消耗：3,443.14kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/About/index/index',
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/About.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/about/about.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000423s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001135s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000901s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_page` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_page` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000218s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:45:56+08:00 ] 183.56.148.206 183.130.91.112 GET /pro
+[ log ] o.dqzd.com/pro [运行时间：0.037395s][吞吐率：26.74req/s] [内存消耗：3,330.08kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/about',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000504s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001058s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000230s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:46:01+08:00 ] 183.56.148.206 183.130.91.112 GET /pro1/1
+[ log ] o.dqzd.com/pro1/1 [运行时间：0.042190s][吞吐率：23.70req/s] [内存消耗：3,343.41kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/pro',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'tid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro1.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001005s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001154s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=1 ) [ RunTime:0.000234s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:46:01+08:00 ] 183.56.148.206 183.130.91.112 GET /pro1/favicon.ico
+[ log ] o.dqzd.com/pro1/favicon.ico [运行时间：0.049262s][吞吐率：20.30req/s] [内存消耗：3,398.41kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/pro1/1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'tid' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001972s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001606s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.001087s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.001143s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000334s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'[/www/wwwroot/o.dqzd.cpm/thinkphp/library/think/db/Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:46:03+08:00 ] 183.56.148.206 183.130.91.112 GET /pro
+[ log ] o.dqzd.com/pro [运行时间：0.038103s][吞吐率：26.24req/s] [内存消耗：3,329.68kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/pro1/1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000560s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001234s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000228s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:46:04+08:00 ] 183.56.148.206 183.130.91.112 GET /pro1/1
+[ log ] o.dqzd.com/pro1/1 [运行时间：0.038354s][吞吐率：26.07req/s] [内存消耗：3,343.41kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/pro',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'tid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro1.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000564s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=1 ) [ RunTime:0.000230s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:46:04+08:00 ] 183.56.148.206 183.130.91.112 GET /pro1/favicon.ico
+[ log ] o.dqzd.com/pro1/favicon.ico [运行时间：0.040747s][吞吐率：24.54req/s] [内存消耗：3,398.41kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/pro1/1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'tid' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000604s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001027s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000788s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000225s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'[/www/wwwroot/o.dqzd.cpm/thinkphp/library/think/db/Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:46:09+08:00 ] 183.56.148.206 183.130.91.112 GET /pro2/6
+[ log ] o.dqzd.com/pro2/6 [运行时间：0.053902s][吞吐率：18.55req/s] [内存消耗：3,751.03kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/pro1/1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro2[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro2.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000417s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.001035s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wb_product` WHERE  `lid` = 6 LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `lid` = 6 LIMIT 0,9 [ RunTime:0.000498s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:46:11+08:00 ] 183.56.148.206 183.130.91.112 GET /pro2/favicon.ico
+[ log ] o.dqzd.com/pro2/favicon.ico [运行时间：0.044564s][吞吐率：22.44req/s] [内存消耗：3,494.69kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/pro2/6',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro2[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro2.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000879s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001188s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.000883s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wb_product` WHERE  `lid` = 0 LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `lid` = 0 LIMIT 0,9 [ RunTime:0.000404s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:46:12+08:00 ] 183.56.148.206 183.130.91.112 GET /proshow/1
+[ log ] o.dqzd.com/proshow/1 [运行时间：0.040185s][吞吐率：24.88req/s] [内存消耗：3,523.48kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro_show',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/pro2/6',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro_show[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro_show.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000477s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000287s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:46:13+08:00 ] 183.56.148.206 183.130.91.112 GET /proshow/favicon.ico
+[ log ] o.dqzd.com/proshow/favicon.ico [运行时间：0.041542s][吞吐率：24.07req/s] [内存消耗：3,304.34kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro_show',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/proshow/1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro_show[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro_show.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000809s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001213s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000928s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000280s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T15:46:19+08:00 ] 183.56.148.206 183.130.91.112 GET /
+[ log ] o.dqzd.com/ [运行时间：0.049383s][吞吐率：20.25req/s] [内存消耗：3,292.80kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/proshow/1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/index/index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001092s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.001073s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.000324s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:03:11+08:00 ] 183.56.148.206 113.108.80.206 GET /
+[ log ] o.dqzd.com/ [运行时间：0.054218s][吞吐率：18.44req/s] [内存消耗：3,292.02kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)',
+  'host' => 'o.dqzd.com',
+  'connection' => 'Keep-Alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/index/index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000714s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001395s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.001530s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.002260s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.000388s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:03:20+08:00 ] 183.56.148.206 117.185.27.115 GET /
+[ log ] o.dqzd.com/ [运行时间：0.047761s][吞吐率：20.94req/s] [内存消耗：3,292.78kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; rv:11.0) like Gecko',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/index/index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000828s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.001506s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.001303s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.000286s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:03:21+08:00 ] 183.56.148.206 180.153.212.13 GET /
+[ log ] o.dqzd.com/ [运行时间：0.044685s][吞吐率：22.38req/s] [内存消耗：3,292.78kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 QQ/6.6.9.412 V1_IPH_SQ_6.6.9_1_APP_A Pixel/1080 Core/UIWebView NetType/WIFI',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/index/index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000596s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001055s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.000984s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.000347s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:03:55+08:00 ] 183.56.148.206 183.130.91.112 GET /
+[ log ] o.dqzd.com/ [运行时间：0.046730s][吞吐率：21.40req/s] [内存消耗：3,292.98kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/index/index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001219s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001099s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.001282s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.000369s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:03:59+08:00 ] 183.56.148.206 183.130.91.112 GET /favicon.ico
+[ log ] o.dqzd.com/favicon.ico [运行时间：0.018354s][吞吐率：54.48req/s] [内存消耗：1,569.52kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-17T16:03:59+08:00 ] 183.56.148.206 183.130.91.112 GET /favicon.ico
+[ log ] o.dqzd.com/favicon.ico [运行时间：0.018420s][吞吐率：54.29req/s] [内存消耗：1,569.52kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-17T16:04:24+08:00 ] 183.56.148.206 183.130.91.112 GET /pro
+[ log ] o.dqzd.com/pro [运行时间：0.046443s][吞吐率：21.53req/s] [内存消耗：3,329.91kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000424s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001085s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.001383s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000251s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:04:27+08:00 ] 183.56.148.206 183.130.91.112 GET /pro1/1
+[ log ] o.dqzd.com/pro1/1 [运行时间：0.051957s][吞吐率：19.25req/s] [内存消耗：3,343.72kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/pro',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'tid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro1.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000539s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001517s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.001052s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.001444s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=1 ) [ RunTime:0.000395s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:04:30+08:00 ] 183.56.148.206 183.130.91.112 GET /pro2/6
+[ log ] o.dqzd.com/pro2/6 [运行时间：0.049166s][吞吐率：20.34req/s] [内存消耗：3,551.39kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/pro1/1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro2[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro2.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000566s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001249s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.001544s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wb_product` WHERE  `lid` = 6 LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `lid` = 6 LIMIT 0,9 [ RunTime:0.001304s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:04:32+08:00 ] 183.56.148.206 183.130.91.112 GET /pro2/favicon.ico
+[ log ] o.dqzd.com/pro2/favicon.ico [运行时间：0.048490s][吞吐率：20.62req/s] [内存消耗：3,494.67kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/pro2/6',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro2[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro2.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000762s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.001081s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000787s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wb_product` WHERE  `lid` = 0 LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `lid` = 0 LIMIT 0,9 [ RunTime:0.000329s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:04:32+08:00 ] 183.56.148.206 183.130.91.112 GET /proshow/1
+[ log ] o.dqzd.com/proshow/1 [运行时间：0.043539s][吞吐率：22.97req/s] [内存消耗：3,322.34kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro_show',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/pro2/6',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro_show[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro_show.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000839s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001093s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000359s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:04:33+08:00 ] 183.56.148.206 183.130.91.112 GET /proshow/favicon.ico
+[ log ] o.dqzd.com/proshow/favicon.ico [运行时间：0.042324s][吞吐率：23.63req/s] [内存消耗：3,304.45kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro_show',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/proshow/1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro_show[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro_show.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000847s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001484s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000257s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:06:46+08:00 ] 183.56.148.206 183.130.91.112 GET /contact
+[ log ] o.dqzd.com/contact [运行时间：0.041945s][吞吐率：23.84req/s] [内存消耗：3,245.25kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/About/contact/index',
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/proshow/1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->contact[ /www/wwwroot/o.dqzd.cpm/application/index/controller/About.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/about/contact.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000729s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001163s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_page` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_page` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000236s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:08:04+08:00 ] 183.56.148.206 183.130.91.112 GET /pro
+[ log ] o.dqzd.com/pro [运行时间：0.043853s][吞吐率：22.80req/s] [内存消耗：3,329.90kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/contact',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->index[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000961s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001386s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000248s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:08:37+08:00 ] 183.56.148.206 183.130.91.112 GET /pro1/1
+[ log ] o.dqzd.com/pro1/1 [运行时间：0.042391s][吞吐率：23.59req/s] [内存消耗：3,343.72kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/pro',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'tid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro1.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000524s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001067s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000880s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=1 ) [ RunTime:0.000395s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:08:37+08:00 ] 183.56.148.206 183.130.91.112 GET /pro1/favicon.ico
+[ log ] o.dqzd.com/pro1/favicon.ico [运行时间：0.045510s][吞吐率：21.97req/s] [内存消耗：3,398.67kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/pro1/1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'tid' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000942s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001367s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000879s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000918s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000238s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'[/www/wwwroot/o.dqzd.cpm/thinkphp/library/think/db/Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:08:39+08:00 ] 183.56.148.206 183.130.91.112 GET /pro2/6
+[ log ] o.dqzd.com/pro2/6 [运行时间：0.045662s][吞吐率：21.90req/s] [内存消耗：3,551.39kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/pro1/1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro2[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro2.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000753s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001194s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wb_product` WHERE  `lid` = 6 LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `lid` = 6 LIMIT 0,9 [ RunTime:0.000409s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:08:40+08:00 ] 183.56.148.206 183.130.91.112 GET /pro2/favicon.ico
+[ log ] o.dqzd.com/pro2/favicon.ico [运行时间：0.043486s][吞吐率：23.00req/s] [内存消耗：3,494.67kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/pro2/6',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro2[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro2.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000459s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001231s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000880s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.001028s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wb_product` WHERE  `lid` = 0 LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `lid` = 0 LIMIT 0,9 [ RunTime:0.000343s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:08:57+08:00 ] 183.56.148.206 183.130.91.112 GET /proshow/1
+[ log ] o.dqzd.com/proshow/1 [运行时间：0.046427s][吞吐率：21.54req/s] [内存消耗：3,322.34kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro_show',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/pro2/6',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro_show[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro_show.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000599s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001681s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.000938s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000320s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:08:57+08:00 ] 183.56.148.206 183.130.91.112 GET /proshow/favicon.ico
+[ log ] o.dqzd.com/proshow/favicon.ico [运行时间：0.039217s][吞吐率：25.50req/s] [内存消耗：3,304.45kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro_show',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/proshow/1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro_show[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro_show.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000763s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001149s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.000901s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000340s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:09:33+08:00 ] 183.56.148.206 183.130.91.112 GET /proshow/index.html
+[ log ] o.dqzd.com/proshow/index.html [运行时间：0.044165s][吞吐率：22.64req/s] [内存消耗：3,304.66kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro_show',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://o.dqzd.com/proshow/1',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro_show[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro_show.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000578s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001219s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000259s ]
+
+---------------------------------------------------------------
+[ 2017-03-17T16:09:33+08:00 ] 183.56.148.206 183.130.91.112 GET /proshow/favicon.ico
+[ log ] o.dqzd.com/proshow/favicon.ico [运行时间：0.045313s][吞吐率：22.07req/s] [内存消耗：3,304.21kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/o.dqzd.cpm/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro_show',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o.dqzd.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o.dqzd.com/proshow/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro_show[ /www/wwwroot/o.dqzd.cpm/application/index/controller/Pro.php ]
+[ info ] [ VIEW ] /www/wwwroot/o.dqzd.cpm/public/../application/index/view/pro/pro_show.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000906s ] mysql:dbname=jiepai;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.001436s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.001044s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.000841s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000276s ]
+
+---------------------------------------------------------------

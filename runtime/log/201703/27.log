@@ -1,0 +1,1070 @@
+[ 2017-03-27T10:11:56+08:00 ] 127.0.0.1 127.0.0.1 GET /website/public/
+[ log ] fuck.io/website/public/ [运行时间：0.109435s][吞吐率：9.14req/s] [内存消耗：1,215.27kb] [文件加载：37]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/website/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Common' not found[G:\xampp\htdocs\website\application\index\controller\Index.php:9]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:12:56+08:00 ] 127.0.0.1 127.0.0.1 GET /website/public/
+[ log ] fuck.io/website/public/ [运行时间：0.080846s][吞吐率：12.37req/s] [内存消耗：1,432.11kb] [文件加载：39]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/website/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:13:07+08:00 ] 127.0.0.1 127.0.0.1 GET /website/public/jksmp.php
+[ log ] fuck.io/website/public/jksmp.php [运行时间：0.045972s][吞吐率：21.75req/s] [内存消耗：1,190.22kb] [文件加载：35]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'jksmp.php',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:13:11+08:00 ] 127.0.0.1 127.0.0.1 GET /website/public/jksm.php
+[ log ] fuck.io/website/public/jksm.php [运行时间：0.027317s][吞吐率：36.61req/s] [内存消耗：1,554.28kb] [文件加载：44]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'login',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:13:11+08:00 ] 127.0.0.1 127.0.0.1 GET /website/public/jksm.php/login.html
+[ log ] fuck.io/website/public/jksm.php/login.html [运行时间：0.026356s][吞吐率：37.94req/s] [内存消耗：1,566.48kb] [文件加载：41]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ G:\xampp\htdocs\website\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\website\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:15:11+08:00 ] 127.0.0.1 127.0.0.1 GET /website/public/jksm.php/login.html
+[ log ] fuck.io/website/public/jksm.php/login.html [运行时间：0.061614s][吞吐率：16.23req/s] [内存消耗：1,423.27kb] [文件加载：39]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ G:\xampp\htdocs\website\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\website\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:15:12+08:00 ] 127.0.0.1 127.0.0.1 GET /website/public/jksm.php/login.html
+[ log ] fuck.io/website/public/jksm.php/login.html [运行时间：0.031887s][吞吐率：31.36req/s] [内存消耗：1,423.27kb] [文件加载：39]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ G:\xampp\htdocs\website\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\website\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:15:23+08:00 ] 127.0.0.1 127.0.0.1 GET /dashboard/
+[ log ] fuck.io/dashboard/ [运行时间：0.027112s][吞吐率：36.88req/s] [内存消耗：1,190.91kb] [文件加载：35]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+  'if-none-match' => '"1af8-532a42860a140"',
+  'if-modified-since' => 'Thu, 12 May 2016 12:18:37 GMT',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'dashboard',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:15:25+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.024263s][吞吐率：41.22req/s] [内存消耗：1,431.67kb] [文件加载：39]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:15:31+08:00 ] 127.0.0.1 127.0.0.1 GET /jksm.php
+[ log ] fuck.io/jksm.php [运行时间：0.029864s][吞吐率：33.49req/s] [内存消耗：1,554.12kb] [文件加载：44]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'login',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:15:31+08:00 ] 127.0.0.1 127.0.0.1 GET /jksm.php/login.html
+[ log ] fuck.io/jksm.php/login.html [运行时间：0.022425s][吞吐率：44.59req/s] [内存消耗：1,423.00kb] [文件加载：39]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ G:\xampp\htdocs\website\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\website\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:15:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha
+[ log ] fuck.io/index.php/captcha [运行时间：0.196428s][吞吐率：5.09req/s] [内存消耗：1,213.58kb] [文件加载：32]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/jksm.php/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ G:\xampp\htdocs\website\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:16:50+08:00 ] 127.0.0.1 127.0.0.1 GET /jksm.php/login.html
+[ log ] fuck.io/jksm.php/login.html [运行时间：0.035845s][吞吐率：27.90req/s] [内存消耗：1,423.13kb] [文件加载：39]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ G:\xampp\htdocs\website\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\website\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:16:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/captcha
+[ log ] fuck.io/index.php/captcha [运行时间：0.019017s][吞吐率：52.58req/s] [内存消耗：1,213.65kb] [文件加载：32]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/jksm.php/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ G:\xampp\htdocs\website\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:16:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.023357s][吞吐率：42.81req/s] [内存消耗：1,403.38kb] [文件加载：40]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:16:53+08:00 ] 127.0.0.1 127.0.0.1 GET /intall.php
+[ log ] fuck.io/intall.php [运行时间：0.025319s][吞吐率：39.50req/s] [内存消耗：1,190.33kb] [文件加载：35]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'intall.php',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:17:02+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.022103s][吞吐率：45.24req/s] [内存消耗：1,403.38kb] [文件加载：40]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:17:02+08:00 ] 127.0.0.1 127.0.0.1 GET /intall.php
+[ log ] fuck.io/intall.php [运行时间：0.020529s][吞吐率：48.71req/s] [内存消耗：1,190.33kb] [文件加载：35]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'intall.php',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:20:44+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.025877s][吞吐率：38.64req/s] [内存消耗：1,403.32kb] [文件加载：40]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:22:02+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.027752s][吞吐率：36.03req/s] [内存消耗：1,403.38kb] [文件加载：40]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:22:25+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.025785s][吞吐率：38.78req/s] [内存消耗：1,431.63kb] [文件加载：39]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:25:30+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.028365s][吞吐率：35.25req/s] [内存消耗：1,484.66kb] [文件加载：43]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Config' not found[G:\xampp\htdocs\website\application\index\controller\Index.php:13]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:26:43+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.023051s][吞吐率：43.38req/s] [内存消耗：1,432.28kb] [文件加载：39]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:26:50+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.026067s][吞吐率：38.36req/s] [内存消耗：1,462.13kb] [文件加载：41]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[G:\xampp\htdocs\website\thinkphp\library\think\Response.php:312]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:26:59+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.061163s][吞吐率：16.35req/s] [内存消耗：1,463.77kb] [文件加载：40]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:28:14+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.027652s][吞吐率：36.16req/s] [内存消耗：1,463.77kb] [文件加载：40]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:28:50+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.024330s][吞吐率：41.10req/s] [内存消耗：1,463.63kb] [文件加载：40]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:32:51+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.026060s][吞吐率：38.37req/s] [内存消耗：1,432.27kb] [文件加载：39]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:32:52+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.030413s][吞吐率：32.88req/s] [内存消耗：1,432.27kb] [文件加载：39]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:32:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.036216s][吞吐率：27.61req/s] [内存消耗：1,432.27kb] [文件加载：39]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:32:58+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.039806s][吞吐率：25.12req/s] [内存消耗：1,475.64kb] [文件加载：43]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Array to string conversion[G:\xampp\htdocs\website\application\index\controller\Index.php:14]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:33:13+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.046693s][吞吐率：21.42req/s] [内存消耗：1,463.70kb] [文件加载：40]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:37:52+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.041796s][吞吐率：23.93req/s] [内存消耗：1,431.95kb] [文件加载：39]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:38:18+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.021430s][吞吐率：46.66req/s] [内存消耗：1,431.64kb] [文件加载：39]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:38:29+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.021589s][吞吐率：46.32req/s] [内存消耗：1,431.95kb] [文件加载：39]
+[ info ] [ LANG ] G:\xampp\htdocs\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6; wordpress_logged_in_b9e72d12bc3370c53d9b2030ff729627=chenweibo%7C1491627718%7C1lOPnSsw7O8qtdh81So46VYK1Oer6ih3B68cllYHoDb%7C26a82732a9105dfb18bc379cae98d031e7c3b5f3dd1c831f58e59ae250e216a5; PHPSESSID=uo2q1qqnds7p6oj9u7vibeovf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\website\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

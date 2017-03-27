@@ -1,0 +1,14 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*
+	内容
+*/
+
+.bout { min-height: 550px; line-height: 25px; }
+.bout p { padding-top: 10px; }
+.bout img { max-width:100%; }
+.bout_b { text-align: center; border-top: 1px #CCC solid; padding-top: 15px; padding-bottom: 30px; color: #CCC; }
+.bout hr { border: none; border-top: 1px dotted #d3d3d3; margin-top: 10px; margin-bottom: 10px; word-wrap: break-word; word-break: normal; }
+/*
+	新闻
+*/

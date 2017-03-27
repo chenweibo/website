@@ -1,0 +1,43 @@
+{include  file="public/header"  title="其他设置-企业网站管理后台"  /}
+
+
+    <div class="container-fluid">
+      <div class="row">
+
+
+{include  file="public/left"  /}
+   <script type="text/javascript">
+     
+     $(".gaoliang .nav:eq(0) li:eq(1)").addClass('active');
+  
+   </script>
+
+  <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">其他设置</h1>
+
+<form class="form-horizontal" method="post" action="{:url('save')}" id="cess"  role="form"   style="margin-top:80px">
+  <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">友情连接</label>
+    <div class="col-sm-10">
+      <input class="form-control" name="link" value="{$others.link}" type="text" id="formGroupInputLarge" placeholder="友情连接">
+    </div>
+  </div>
+
+    
+
+ <div class="form-group form-group-lg">
+ <label class="col-sm-1 control-label sr-only" for="formGroupInputLarge">提交修改按钮</label>
+   <div class="col-sm-10">
+   <button href="#" class="button button-3d button-primary button-rounded">保存</button>
+   </div>
+     </div>
+
+</form>
+
+        </div>
+      </div>
+    </div>
+
+{include file="public/footer" /}
+  </body>
+</html>

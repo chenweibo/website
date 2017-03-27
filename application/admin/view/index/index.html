@@ -1,0 +1,69 @@
+{include  file="public/header"  title="企业网站管理后台"  /}
+
+
+    <div class="container-fluid">
+      <div class="row">
+
+
+        {include  file="public/left"  /}
+        
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">数据统计</h1>
+
+<div class="progress">
+  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+    40% page (单篇页面)
+  </div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+   20% article(文章)
+  </div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+   60% product (产品)
+  </div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+    80% images (图片)
+  </div>
+</div>
+
+          <h2 class="sub-header">操作日志</h2>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>#ID</th>
+                  <th>IP</th>
+                  <th>操作类型</th>
+                  <th>详情</th>
+                  <th>操作时间</th>
+                </tr>
+              </thead>
+              <tbody>
+
+         {volist name="list" id="v"}            
+                <tr>
+                  <td>{$v.id}</td>
+                  <td>{$v.ip}</td>
+                  <td>{$v.curd}</td>
+                  <td>{$v.content}</td>
+                  <td>{$v.createtime}</td>
+                </tr>
+          {/volist}      
+              
+              </tbody>
+            </table>
+
+         <div style="float:right">{$list->render()}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+{include file="public/footer" /}
+  </body>
+</html>

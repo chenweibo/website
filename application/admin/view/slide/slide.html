@@ -1,0 +1,79 @@
+{include  file="public/header"  title="幻灯片设置-企业网站管理后台"  /}
+
+
+    <div class="container-fluid">
+      <div class="row">
+
+
+{include  file="public/left"  /}
+   <script type="text/javascript">
+     
+     $(".gaoliang .nav:eq(0) li:eq(2)").addClass('active');
+  
+   </script>
+
+  <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">幻灯片设置</h1>
+<div class="controllerbut">
+  <a href="{:url('create')}" class="button button-primary button-rounded button-small">添加</a>
+    <a  class="button psc button-caution button-rounded button-small">批量删除</a>
+   
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+   幻灯片列表
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th><input class="all shancu"   type="checkbox"/></th>
+        <th>id</th>        
+        <th>名称</th>
+        <th>排序</th>
+        <th>添加时间</th>
+        <th>更新时间</th>
+        <th>操作</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+       <form>
+         {volist name="list" id="vo"}
+           <tr>
+             <td><input name="delete[]" class="ckid" type="checkbox" value="{$vo.id}" /></td>
+             <td>{$vo.id}</td>
+             <td>{$vo.slide_name}</td>
+             <td data-id="{$vo.id}" class="clicksort">{$vo.slide_sort}</td>                        
+             <td>{$vo.createtime}</td>
+            <td>{$vo.updatetime}</td>
+           <td>
+            <a href="{:url('edit',['id' =>$vo['id']])}" class="button button-action button-rounded button-tiny">编辑</a>
+             <a href="{:url('delete',['id' =>$vo['id']])}" class="button button-caution button-rounded button-tiny">删除</a>
+           </td>
+           </tr>
+        
+        
+
+       
+{/volist}
+       </form>
+    </tbody>
+  </table>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+     </script>
+<script type="text/javascript">
+
+
+</script>
+
+
+
+
+{include file="public/footer" /}
+  </body>
+</html>

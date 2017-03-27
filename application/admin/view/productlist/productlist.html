@@ -1,0 +1,210 @@
+{include  file="public/header"  title="产品列表设置-企业网站管理后台"  /}
+
+
+    <div class="container-fluid">
+      <div class="row">
+
+
+{include  file="public/left"  /}
+
+
+
+   <script type="text/javascript">
+     
+     $(".gaoliang .nav:eq(1) li:eq(1)").addClass('active');
+  
+   </script>
+
+  <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">产品列表</h1>
+<div class="controllerbut">
+  <a href="{:url('create',['pid'=>$pid])}" class="button button-primary button-rounded button-small">添加</a>
+    <a  class="button chanpsc  button-caution button-rounded button-small">批量删除</a>
+   
+</div>
+<!-- Single button -->
+
+
+<form method="get" action="{:url('/admin/productlist')}" >
+ <div class="row" style="margin-bottom:20px">
+  <div class="col-lg-1">
+    <div class="input-group">
+  <select class="form-control " name="pid"  style="width:120px" >
+   <option value="0" >全部</option>
+  {volist name="list" id="vo"}
+
+  <option {eq name="vo.id" value="$pid"}
+selected="select"{/eq} value="{$vo.id}" >{$vo.html}{$vo.name}</option>
+  {/volist}
+  </select>
+    </div><!-- /input-group -->
+
+
+  </div>
+  <div class="col-lg-3">
+    <div class="input-group">
+      <input type="text" class="form-control" name="keyword" value="{$keyword}" placeholder="搜索...">
+      <span class="input-group-btn">
+      <button class="btn btn-default" >Go!</button>
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row --> 
+
+</form>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+   产品列表
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th><input class="all shancu"   type="checkbox"/></th>
+        <th>id</th>        
+        <th>名称</th>
+        <th>排序</th> 
+        <th>所属分类</th>
+        <th>缩略图</th>      
+        <th>添加时间</th>
+        <th>更新时间</th>
+        <th>操作</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+       <form>
+<!--  -->       {volist name="pro" id="vo"}
+           <tr>
+             <td><input name="delete[]" class="ckid" type="checkbox" value="{$vo.id}" /></td>
+             <td>{$vo.id}</td>
+             <td>{$vo.name}</td>
+             <td data-id="{$vo.id}" class="clicksortcp">{$vo.sort}</td>
+             <td >{$vo.cate}</td> 
+             <td class="dingwei" >{eq name="vo.icon" value=""}
+
+                      <img src="__static__/img.png" alt=""  class="suolue">
+                      <img src="__static__/img.png" alt=""  class="suolueft"  >
+             {else/}
+            
+                      <img src="/{$vo.icon}" alt=""  class="suolue">
+                      <img src="/{$vo.icon}" alt=""  class="suolueft"  >
+
+                      {/eq}
+             </td>                       
+             <td>{$vo.createtime}</td>
+            <td>{$vo.updatetime}</td>
+           <td>
+
+             <a href="{:url('edit',['id' =>$vo['id']])}" class="button button-royal button-rounded button-tiny">编辑</a>
+             <a href="{:url('delete',['id' =>$vo['id']])}" class="button button-caution button-rounded button-tiny">删除</a>
+           </td>
+           </tr>
+        
+        
+
+       
+{/volist}
+
+
+       </form>
+    </tbody>
+  </table>
+
+
+
+</div>
+<div style="float:right">{$pro->render()}</div>
+
+        </div>
+      </div>
+    </div>
+   <script type="text/javascript">
+$(document).ready(function(){
+$(".chanpsc").click(function(){
+if($('input[name="delete[]"]').is(':checked')) {
+var chk_value =[]; 
+$('input[name="delete[]"]:checked').each(function(){ 
+chk_value.push($(this).val()); 
+}); 
+
+          $.ajax({
+              
+              type:'POST',
+              url:'/admin/productlist/ajaxdelete' ,
+              data: { "id" :chk_value } ,  
+              dataType:'json',
+              success:function(data){
+                  window.location.reload();
+                
+              },
+                error: function () { alert("错误") }
+          });     
+ }
+ else{
+  alert('请选择要删除的内容');
+ }
+
+
+});
+  });
+
+
+　　$(".shancu").click(function(){
+ 　
+ 　　$("input[name='delete[]']").attr("checked", $(this).attr("checked")); 
+ 　　
+ 　　$("input[name='delete[]']").prop("checked", $(this).prop("checked"));
+　　　
+ 　　var str = '';
+ 　　$($("input[name='delete[]']:checked")).each(function(){
+ 　　str += $(this).next().text() + ',';
+ 　　});
+ 　　
+　　}); 
+
+
+$(document).ready(function(){
+
+$(".clicksortcp").click(function(){
+//123
+var td = $(this);
+
+
+var txt = td.text();
+var id = $(".clicksortcp").data("id");
+var input = $("<input  class='ssort'   type='text' value='" + txt + "'/>"); 
+td.html(input);
+input.click(function() { return false; }); 
+input.trigger("focus"); 
+input.blur(function() { 
+var newtxt = $(this).val();
+if(newtxt==txt){
+td.html(newtxt);
+}
+else{
+ var id=td.data('id');
+     $.ajax({
+              
+              type:'POST',
+              url:'/admin/productlist/ajaxsortupdate' ,
+              data: { "id" :id, "sort" :newtxt } ,  
+              dataType:'json',
+              success:function(data){
+                 td.html(newtxt);
+
+              },
+                error: function () { alert("错误") }
+          });
+
+}
+});
+});
+});
+
+
+   </script>
+
+{include file="public/footer" /}
+  </body>
+</html>

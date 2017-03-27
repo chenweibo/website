@@ -1,0 +1,206 @@
+{include  file="public/header"  title="文章添加-企业网站管理后台"  /}
+
+
+    <div class="container-fluid">
+      <div class="row">
+
+
+{include  file="public/left"  /}
+   <script type="text/javascript">
+     
+     $(".gaoliang .nav:eq(1) li:eq(3)").addClass('active');
+  
+   </script>
+
+  <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">文章添加</h1>
+
+<form class="form-horizontal" method="post" action="{:url('save')}" id="cess"  role="form"   style="margin-top:80px">
+
+    
+    <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">标题</label>
+    <div class="col-sm-10">
+      <input class="form-control" name="name"  value="" type="text" id="formGroupInputLarge" placeholder="标题">
+    </div>
+  </div>
+
+      <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">产品分类</label>
+    <div class="col-sm-10">
+  <select class="form-control " name="lPath" style="width:120px" >
+  {volist name="list" id="vo"}
+  <option {eq name="vo.id" value="$pid"}
+selected="select"{/eq} value="{$vo.path}-{$vo.id}" >{$vo.html}{$vo.name}</option>
+  
+  {/volist}
+  </select> 
+ 
+    </div>
+  </div>
+      <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">发布时间</label>
+    <div class="col-sm-10">
+        <div class="input-group date form_date col-md-5" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2"  data-link-format="yyyy-mm-dd">
+                    <input class="form-control" settime size="16" type="text" name="time"  readonly>
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+          <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                </div>
+    </div>
+  </div>
+ 
+
+
+
+      <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">点击量</label>
+    <div class="col-sm-10">
+      <input class="form-control" name="pageview" style="width:100px"  value="" type="text" id="formGroupInputLarge" placeholder="点击量">
+    </div>
+  </div>
+      <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">主要内容</label>
+    <div class="col-sm-10">
+
+
+      <textarea name="info" id="info" ></textarea> 
+
+
+    </div>
+  </div>
+
+    <script type="text/javascript" charset="utf-8">  
+
+    $(document).ready(function () {  
+      UE.getEditor('info', {  
+      initialFrameHeight: 500,  
+      initialFrameWidth: '100%', 
+      
+    });  
+  });  
+
+
+
+      
+    </script> 
+
+
+
+    <div class="form-group form-group-lg" >
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">缩略图</label>
+    
+    <div class="col-sm-10">
+                   <div class="col-md-4 input-group">
+                <input id="lefile" type="file" name="image" style="display:none">
+                <span class="input-group-addon" onclick="$('input[id=lefile]').click();" style="cursor: pointer; background-color: #e7e7e7"><i class="fa fa-folder-open"></i>选择</span>
+                <input id="photoCover" name="icon" class="form-control" type="text" value="" name="icon" >
+                
+                <span class="input-group-addon ut2" style="width:80px;cursor: pointer;pointer-events: auto;" ><i class="fa fa-folder-open"></i>点击上传</span>
+
+              </div> 
+              <label id="targetwz" for="inputPassword" style="color:#f00" class="sr-only">*请选择文件</label> 
+    </div>
+
+  </div>
+
+      <div class="form-group form-group-lg" >
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">下载</label>
+    
+    <div class="col-sm-10">
+                   <div class="col-md-4 input-group">
+                <input id="lefile1" type="file" name="down" style="display:none">
+                <span class="input-group-addon" onclick="$('input[id=lefile1]').click();" style="cursor: pointer; background-color: #e7e7e7"><i class="fa fa-folder-open"></i>选择</span>
+                <input id="photoCover1" name="down" class="form-control" type="text" value=""  >
+                
+                <span class="input-group-addon ut3" style="width:80px;cursor: pointer;pointer-events: auto;" ><i class="fa fa-folder-open"></i>点击上传</span>
+
+              </div> 
+              <label id="targetwz1" for="inputPassword" style="color:#f00" class="sr-only">*请选择文件</label> 
+    </div>
+
+  </div>
+
+
+
+    <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">SEO关键词</label>
+    <div class="col-sm-10">
+      <input class="form-control" name="keywords"  value="" type="text" id="formGroupInputLarge" placeholder="关键词">
+    </div>
+  </div>
+      <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">SEO描述</label>
+    <div class="col-sm-10">
+      <input class="form-control" name="description"  value="" type="text" id="formGroupInputLarge" placeholder="描述">
+    </div>
+  </div>
+           
+    <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">语言选择</label>
+    <div class="col-sm-10">
+      <div class="checkbox">
+     
+      <input type="radio" id="checkboxWarning" name="lang" checked="checked" value="cn">
+       中文
+    
+     
+      <input type="radio" id="checkboxWarning" name="lang"  value="en">
+       英文
+    
+  </div>
+    </div>
+  </div>
+
+          <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">显示状态</label>
+    <div class="col-sm-10">
+      <div class="checkbox">
+     
+      <input type="radio" id="checkboxWarning" name="show" checked="checked" value="1">
+       显示
+    
+     
+      <input type="radio" id="checkboxWarning" name="show"  value="0">
+       隐藏
+    
+  </div>
+    </div>
+  </div>
+
+    <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">首页推荐</label>
+    <div class="col-sm-10">
+      <div class="checkbox">
+     
+      <input type="radio" id="checkboxWarning" name="recommend"  value="1">
+       推荐
+    
+     
+      <input type="radio" id="checkboxWarning" checked="checked" name="recommend"  value="0">
+       不推荐  (首页没产品推荐的可以无视)
+    
+  </div>
+    </div>
+  </div>
+
+
+
+ <div class="form-group form-group-lg">
+ <label class="col-sm-1 control-label sr-only" for="formGroupInputLarge">提交修改按钮</label>
+   <div class="col-sm-10">
+   <button href="#" class="button button-3d button-primary button-rounded">保存</button>
+   </div>
+     </div>
+
+</form>
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+{include file="public/footer" /}
+  </body>
+</html>

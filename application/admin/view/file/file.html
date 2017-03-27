@@ -1,0 +1,97 @@
+{include  file="public/header"  title="文件管理-企业网站管理后台"  /}
+
+
+    <div class="container-fluid">
+      <div class="row">
+
+
+{include  file="public/left"  /}
+   <script type="text/javascript">
+     
+     $(".gaoliang .nav:eq(2) li:eq(2)").addClass('active');
+  
+   </script>
+
+  <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">文件管理</h1>
+<div class="controllerbut">
+
+ 
+</div>
+<div class="panel panel-default filec" >
+<div class="row">
+   {volist name="list" id="vo" key="k" }
+ <div class="col-sm-6 col-md-2 " id="k{$k}">
+  
+    <div class="thumbnail">
+       <img   style="height:215px" class="fileimg"  src="/uploads/{$vo}" alt="">
+      <div class="caption">
+
+        <p>{$vo}</p>
+        <p><a data-id="{$vo}"  class="btn btn-default filedelete" role="button">删除</a>&nbsp;&nbsp;文件删除后无法恢复</p>
+      </div>
+    </div>
+  </div>
+  {/volist}
+
+
+</div>
+
+
+
+
+
+
+</div>
+   <script type="text/javascript">
+$(document).ready(function(){
+$(".filedelete").click(function(){
+
+  var id = $(".filedelete").data("id");
+  var e = $(this).parent().parent().parent().parent().attr("id");
+          $.ajax({
+              
+              type:'POST',
+              url:'/admin/common/filedelete' ,
+              data: { "path" :id } ,  
+              dataType:'json',
+              success:function(data){
+                 if(data==1)
+                 {
+                $("#"+e).remove(); 
+              }
+              else{
+
+                alert("服务器权限不足，linux");
+              }
+              },
+                error: function () { alert("错误") }
+          });     
+
+
+
+
+});
+  });
+
+
+　
+
+
+   </script>
+        </div>
+      </div>
+    </div>
+
+     </script>
+<script type="text/javascript">
+
+
+</script>
+
+
+
+
+{include file="public/footer" /}
+  </body>
+</html>

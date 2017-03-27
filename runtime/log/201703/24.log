@@ -1,0 +1,1644 @@
+[ 2017-03-24T13:07:01+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.381964s][吞吐率：2.62req/s] [内存消耗：2,520.66kb] [文件加载：50]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\jieapi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\jieapi\public/../application/index\view\index\index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001513s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.054062s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.020917s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.015638s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.080636s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.073926s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.000537s ]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:07:02+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fuck.io/favicon.ico [运行时间：0.081668s][吞吐率：12.24req/s] [内存消耗：2,564.80kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001355s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.009801s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.009323s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.008679s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'favicon.ico' LIMIT 1 [ RunTime:0.000490s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:08:05+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.111199s][吞吐率：8.99req/s] [内存消耗：2,692.70kb] [文件加载：52]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\jieapi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\jieapi\public/../application/index\view\index\index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010418s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.006482s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.007450s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.005732s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.006658s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.005605s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.000630s ]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:08:05+08:00 ] 127.0.0.1 127.0.0.1 GET /images/logo-retina.png
+[ log ] fuck.io/images/logo-retina.png [运行时间：0.127306s][吞吐率：7.86req/s] [内存消耗：2,649.81kb] [文件加载：55]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jin' => 'images',
+  'jint' => 'logo-retina.png',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro2[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\jieapi\public/../application/index\view\pro\pro2.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'jinfa',
+  4 => 'jinfa1',
+  5 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000980s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.005535s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.005962s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.005275s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'logo-retina.png' LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.032054s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wb_product` WHERE  `lid` = null LIMIT 1 [ RunTime:0.023100s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `lid` = null LIMIT 0,9 [ RunTime:0.000630s ]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:08:05+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fuck.io/favicon.ico [运行时间：0.072737s][吞吐率：13.75req/s] [内存消耗：2,565.03kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001242s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.006508s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.007488s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.005561s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'favicon.ico' LIMIT 1 [ RunTime:0.000593s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:08:40+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.089324s][吞吐率：11.20req/s] [内存消耗：2,692.91kb] [文件加载：52]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\jieapi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\jieapi\public/../application/index\view\index\index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010833s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.006454s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.007802s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.005950s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.006150s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.006487s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.000488s ]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:08:40+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fuck.io/favicon.ico [运行时间：0.062988s][吞吐率：15.88req/s] [内存消耗：2,565.05kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001280s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.006803s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.005418s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.006096s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'favicon.ico' LIMIT 1 [ RunTime:0.000333s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:08:42+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.075033s][吞吐率：13.33req/s] [内存消耗：2,520.83kb] [文件加载：50]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\jieapi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\jieapi\public/../application/index\view\index\index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001471s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.005714s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.008120s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.005420s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.008974s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.005265s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.000403s ]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:08:42+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fuck.io/favicon.ico [运行时间：0.076454s][吞吐率：13.08req/s] [内存消耗：2,565.05kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000804s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.008934s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.009514s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.009869s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'favicon.ico' LIMIT 1 [ RunTime:0.000528s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:08:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.html
+[ log ] fuck.io/index.html [运行时间：0.062971s][吞吐率：15.88req/s] [内存消耗：2,564.95kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000896s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.005898s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.006048s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.005672s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'index' LIMIT 1 [ RunTime:0.000529s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:08:46+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fuck.io/favicon.ico [运行时间：0.082990s][吞吐率：12.05req/s] [内存消耗：2,564.79kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fuck.io/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001248s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.006196s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001768s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.009810s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.011468s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'favicon.ico' LIMIT 1 [ RunTime:0.000436s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:08:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.html
+[ log ] fuck.io/index.html [运行时间：0.072333s][吞吐率：13.82req/s] [内存消耗：2,565.25kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000910s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.007631s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.006142s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.006131s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'index' LIMIT 1 [ RunTime:0.000406s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:08:53+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fuck.io/favicon.ico [运行时间：0.076229s][吞吐率：13.12req/s] [内存消耗：2,565.06kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fuck.io/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000834s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.008461s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.005731s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.011748s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'favicon.ico' LIMIT 1 [ RunTime:0.000856s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:08:54+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fuck.io/favicon.ico [运行时间：0.097698s][吞吐率：10.24req/s] [内存消耗：2,564.80kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000887s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.041608s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.005092s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.008108s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'favicon.ico' LIMIT 1 [ RunTime:0.000623s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:08:55+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.248592s][吞吐率：4.02req/s] [内存消耗：2,692.88kb] [文件加载：52]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\jieapi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\jieapi\public/../application/index\view\index\index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000806s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.095046s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.069803s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.012029s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.012571s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.006572s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.001257s ]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:08:55+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fuck.io/favicon.ico [运行时间：0.073366s][吞吐率：13.63req/s] [内存消耗：2,565.05kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001381s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.008450s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.007511s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.001132s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.005946s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'favicon.ico' LIMIT 1 [ RunTime:0.000670s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:08:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index.html
+[ log ] fuck.io/index.html [运行时间：0.086271s][吞吐率：11.59req/s] [内存消耗：2,564.98kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001197s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.011199s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.008160s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.007992s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.006796s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'index' LIMIT 1 [ RunTime:0.000589s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:08:55+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fuck.io/favicon.ico [运行时间：0.069838s][吞吐率：14.32req/s] [内存消耗：2,564.77kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fuck.io/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004042s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.007570s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.006505s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.006798s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'favicon.ico' LIMIT 1 [ RunTime:0.000608s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:09:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.html
+[ log ] fuck.io/index.html [运行时间：0.062021s][吞吐率：16.12req/s] [内存消耗：2,565.27kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000895s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.006195s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.005323s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.006002s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'index' LIMIT 1 [ RunTime:0.000404s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:09:32+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fuck.io/favicon.ico [运行时间：0.073045s][吞吐率：13.69req/s] [内存消耗：2,565.06kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fuck.io/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001057s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.013400s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002110s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.007639s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.006066s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'favicon.ico' LIMIT 1 [ RunTime:0.000350s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:09:35+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.085492s][吞吐率：11.70req/s] [内存消耗：2,692.66kb] [文件加载：52]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\jieapi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\jieapi\public/../application/index\view\index\index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010339s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.006787s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.006409s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.005630s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.005544s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.005919s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.000459s ]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:09:35+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fuck.io/favicon.ico [运行时间：0.069109s][吞吐率：14.47req/s] [内存消耗：2,564.80kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000806s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.006844s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.007171s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.007167s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'favicon.ico' LIMIT 1 [ RunTime:0.000828s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:09:39+08:00 ] 127.0.0.1 127.0.0.1 GET /cs3
+[ log ] fuck.io/cs3 [运行时间：0.070825s][吞吐率：14.12req/s] [内存消耗：2,542.59kb] [文件加载：52]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'cs3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\jieapi\public/../application/index\view\pro\pro1.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'list',
+  4 => 'jingtai1',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011298s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.005515s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.006499s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.006329s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001164s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'cs3' LIMIT 1 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=2 ) [ RunTime:0.000433s ]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:09:39+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/58c630301ac3a.jpg
+[ log ] fuck.io/uploads/58c630301ac3a.jpg [运行时间：0.083124s][吞吐率：12.03req/s] [内存消耗：2,649.70kb] [文件加载：55]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/cs3',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jin' => 'uploads',
+  'jint' => '58c630301ac3a.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro2[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\jieapi\public/../application/index\view\pro\pro2.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'jinfa',
+  4 => 'jinfa1',
+  5 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004791s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.008409s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.007946s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.008988s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = '58c630301ac3a.jpg' LIMIT 1 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.008145s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wb_product` WHERE  `lid` = null LIMIT 1 [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `lid` = null LIMIT 0,9 [ RunTime:0.001451s ]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:09:39+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/58c6301f9ff83.jpg
+[ log ] fuck.io/uploads/58c6301f9ff83.jpg [运行时间：0.088092s][吞吐率：11.35req/s] [内存消耗：2,649.70kb] [文件加载：55]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/cs3',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jin' => 'uploads',
+  'jint' => '58c6301f9ff83.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro2[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\jieapi\public/../application/index\view\pro\pro2.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'jinfa',
+  4 => 'jinfa1',
+  5 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004867s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.007700s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002991s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.006317s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.009328s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = '58c6301f9ff83.jpg' LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.008184s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wb_product` WHERE  `lid` = null LIMIT 1 [ RunTime:0.002976s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `lid` = null LIMIT 0,9 [ RunTime:0.001227s ]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:09:39+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/58c63003a36a9.jpg
+[ log ] fuck.io/uploads/58c63003a36a9.jpg [运行时间：0.086672s][吞吐率：11.54req/s] [内存消耗：2,649.70kb] [文件加载：55]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/cs3',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jin' => 'uploads',
+  'jint' => '58c63003a36a9.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro2[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\jieapi\public/../application/index\view\pro\pro2.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'jinfa',
+  4 => 'jinfa1',
+  5 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002599s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.010610s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.007025s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.006299s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = '58c63003a36a9.jpg' LIMIT 1 [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.011112s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wb_product` WHERE  `lid` = null LIMIT 1 [ RunTime:0.004459s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `lid` = null LIMIT 0,9 [ RunTime:0.001645s ]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:09:39+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/58c63011c3514.jpg
+[ log ] fuck.io/uploads/58c63011c3514.jpg [运行时间：0.119100s][吞吐率：8.40req/s] [内存消耗：2,649.70kb] [文件加载：55]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro2',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/cs3',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jin' => 'uploads',
+  'jint' => '58c63011c3514.jpg',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro2[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\jieapi\public/../application/index\view\pro\pro2.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'jinfa',
+  4 => 'jinfa1',
+  5 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005125s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.011029s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.018591s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.034561s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = '58c63011c3514.jpg' LIMIT 1 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_product` [ RunTime:0.006395s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wb_product` WHERE  `lid` = null LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_product` WHERE  `lid` = null LIMIT 0,9 [ RunTime:0.000441s ]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:09:39+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fuck.io/favicon.ico [运行时间：0.062423s][吞吐率：16.02req/s] [内存消耗：2,564.83kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fuck.io/cs3',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000771s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.007401s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.006088s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.006713s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'favicon.ico' LIMIT 1 [ RunTime:0.000359s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:09:41+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fuck.io/favicon.ico [运行时间：0.068010s][吞吐率：14.70req/s] [内存消耗：2,564.80kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001060s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.008700s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.007188s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.006981s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'favicon.ico' LIMIT 1 [ RunTime:0.000445s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:09:42+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.094127s][吞吐率：10.62req/s] [内存消耗：2,520.79kb] [文件加载：50]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\jieapi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\jieapi\public/../application/index\view\index\index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011148s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.007429s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001158s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.007555s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.009570s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.006396s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.008176s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.000599s ]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:09:42+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fuck.io/favicon.ico [运行时间：0.069675s][吞吐率：14.35req/s] [内存消耗：2,564.80kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000939s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.007340s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.011581s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.009117s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'favicon.ico' LIMIT 1 [ RunTime:0.000500s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:10:18+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.087412s][吞吐率：11.44req/s] [内存消耗：2,521.05kb] [文件加载：50]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\jieapi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\jieapi\public/../application/index\view\index\index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000992s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.006874s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.005668s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.006065s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.006833s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.006399s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.000606s ]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:10:18+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fuck.io/favicon.ico [运行时间：0.081361s][吞吐率：12.29req/s] [内存消耗：2,565.05kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000847s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.012279s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.012135s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.008847s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'favicon.ico' LIMIT 1 [ RunTime:0.000426s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:42:52+08:00 ] 127.0.0.1 127.0.0.1 GET /about
+[ log ] fuck.io/about [运行时间：0.136803s][吞吐率：7.31req/s] [内存消耗：2,467.18kb] [文件加载：50]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/About/index/index',
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ G:\xampp\htdocs\jieapi\application\index\controller\About.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\jieapi\public/../application/index\view\about\about.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011483s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.006230s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.007619s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000842s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.008066s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000969s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_page` [ RunTime:0.021215s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_page` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000466s ]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:42:52+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fuck.io/favicon.ico [运行时间：0.062430s][吞吐率：16.02req/s] [内存消耗：2,564.83kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fuck.io/about',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000926s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.005854s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.005755s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.005875s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'favicon.ico' LIMIT 1 [ RunTime:0.000365s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:42:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] fuck.io/ [运行时间：0.076300s][吞吐率：13.11req/s] [内存消耗：2,520.83kb] [文件加载：50]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'referer' => 'http://fuck.io/about',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\xampp\htdocs\jieapi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\xampp\htdocs\jieapi\public/../application/index\view\index\index.html [ array (
+  0 => 'system',
+  1 => 'link',
+  2 => 'pro',
+  3 => 'slide',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001587s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.006733s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.005942s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.006763s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_slide` [ RunTime:0.007193s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_slide` ORDER BY slide_sort asc [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_article` [ RunTime:0.006450s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_article` ORDER BY id desc LIMIT 3 [ RunTime:0.000555s ]
+
+---------------------------------------------------------------
+[ 2017-03-24T13:42:53+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] fuck.io/favicon.ico [运行时间：0.075775s][吞吐率：13.20req/s] [内存消耗：2,564.80kb] [文件加载：56]
+[ info ] [ LANG ] G:\xampp\htdocs\jieapi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Pro',
+    2 => 'pro1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fuck.io',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://fuck.io/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'BJYADMIN=bo0u54rhisbq5uco7ceufcrhl6',
+)
+[ info ] [ PARAM ] array (
+  'jingtai' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Pro->pro1[ G:\xampp\htdocs\jieapi\application\index\controller\Pro.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000906s ] mysql:dbname=jiepaixin;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_system` [ RunTime:0.008903s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_productcate` [ RunTime:0.005600s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  (  pid=0 ) [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wb_others` [ RunTime:0.011309s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_others` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001593s ]
+[ sql ] [ SQL ] SELECT * FROM `wb_productcate` WHERE  `jingtai` = 'favicon.ico' LIMIT 1 [ RunTime:0.001016s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1[G:\xampp\htdocs\jieapi\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------

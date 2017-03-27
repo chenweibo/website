@@ -1,0 +1,156 @@
+   {include  file="public/header"  title="下载分类设置-企业网站管理后台"  /}
+   <div class="container-fluid">
+   <div class="row">
+   {include  file="public/left"  /}
+   <script type="text/javascript">
+     
+     $(".gaoliang .nav:eq(1) li:eq(6)").addClass('active');
+  
+   </script>
+
+  <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">下载分类</h1>
+<div class="controllerbut">
+  <a href="{:url('create')}" class="button button-primary button-rounded button-small">添加</a>
+    <a  class="button psdownc button-caution button-rounded button-small">批量删除</a>
+   
+</div>
+
+
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+   下载分类列表
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th><input class="all shancu"   type="checkbox"/></th>
+        <th>id</th>        
+        <th>名称</th>
+        <th>排序</th>        
+        <th>添加时间</th>
+        <th>更新时间</th>
+        <th>操作</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+       <form>
+       {volist name="list" id="vo"}
+           <tr>
+             <td><input name="delete[]" class="ckid" type="checkbox" value="{$vo.id}" /></td>
+             <td>{$vo.id}</td>
+             <td>{$vo.html}{$vo.name}</td>
+             <td data-id="{$vo.id}" class="cldoenc">{$vo.sort}</td>                        
+             <td>{$vo.createtime}</td>
+            <td>{$vo.updatetime}</td>
+           <td>
+            <a href="{:url('create',['pid' =>$vo['id']])}" class="button button-action button-rounded button-tiny">添加子分类</a>
+             <a href="{:url('edit',['id' =>$vo['id']])}" class="button button-royal button-rounded button-tiny">编辑</a>
+             <a href="{:url('delete',['id' =>$vo['id']])}" class="button button-caution button-rounded button-tiny">删除</a>
+           </td>
+           </tr>
+        
+        
+
+       
+{/volist}
+       </form>
+    </tbody>
+  </table>
+
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+   <script type="text/javascript">
+$(document).ready(function(){
+$(".psdownc").click(function(){
+if($('input[name="delete[]"]').is(':checked')) {
+var chk_value =[]; 
+$('input[name="delete[]"]:checked').each(function(){ 
+chk_value.push($(this).val()); 
+}); 
+
+          $.ajax({
+              
+              type:'POST',
+              url:'/admin/downcate/ajaxdelete' ,
+              data: { "id" :chk_value } ,  
+              dataType:'json',
+              success:function(data){
+                  window.location.reload();
+              },
+                error: function () { alert("错误") }
+          });     
+ }
+ else{
+  alert('请选择要删除的内容');
+ }
+
+
+});
+  });
+
+
+　　$(".shancu").click(function(){
+ 　
+ 　　$("input[name='delete[]']").attr("checked", $(this).attr("checked")); 
+ 　　
+ 　　$("input[name='delete[]']").prop("checked", $(this).prop("checked"));
+　　　
+ 　　var str = '';
+ 　　$($("input[name='delete[]']:checked")).each(function(){
+ 　　str += $(this).next().text() + ',';
+ 　　});
+ 　　
+　　}); 
+
+
+$(document).ready(function(){
+
+$(".cldoenc").click(function(){
+//123
+var td = $(this);
+
+
+var txt = td.text();
+var id = $(".cldoenc").data("id");
+var input = $("<input  class='ssort'   type='text' value='" + txt + "'/>"); 
+td.html(input);
+input.click(function() { return false; }); 
+input.trigger("focus"); 
+input.blur(function() { 
+var newtxt = $(this).val();
+if(newtxt==txt){
+td.html(newtxt);
+}
+else{
+ var id=td.data('id');
+     $.ajax({
+                  
+              type:'POST',
+              url:'/admin/downcate/ajaxsortupdate' ,
+              data: { "id" :id, "sort" :newtxt } ,  
+              dataType:'json',
+              success:function(data){
+                 td.html(newtxt);
+              },
+                error: function () { alert("错误") }
+          });
+
+}
+});
+});
+});
+
+
+   </script>
+
+{include file="public/footer" /}
+  </body>
+</html>
