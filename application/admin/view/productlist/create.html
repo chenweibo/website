@@ -52,6 +52,13 @@ selected="select"{/eq} value="{$vo.path}-{$vo.id}" >{$vo.html}{$vo.name}</option
       <input class="form-control" name="pageview" style="width:100px"  value="" type="text" id="formGroupInputLarge" placeholder="点击量">
     </div>
   </div>
+
+    <div class="form-group form-group-lg">
+    <label class="col-sm-1 control-label" for="formGroupInputLarge">产品概述</label>
+    <div class="col-sm-10">
+      <textarea class="form-control" rows="5" name="gaishu"></textarea>
+    </div>
+  </div>
       <div class="form-group form-group-lg">
     <label class="col-sm-1 control-label" for="formGroupInputLarge">主要内容</label>
     <div class="col-sm-10">
@@ -103,7 +110,7 @@ selected="select"{/eq} value="{$vo.path}-{$vo.id}" >{$vo.html}{$vo.name}</option
       
 
     </div>
-   <a onclick="$('input[id=lefile2]').click();"   class="button button-glow button-rounded button-royal">点击选择</a>
+   <a onclick="$('input[id=lefile2]').click();"   class="button button-glow button-rounded button-royal">点击选择</a>&nbsp; &nbsp; &nbsp;(600*600效果更好)
     </div>
  <div></div>
   </div>
@@ -122,7 +129,7 @@ selected="select"{/eq} value="{$vo.path}-{$vo.id}" >{$vo.html}{$vo.name}</option
           processData: false,  
           success: function (data) {  
           i++;
-    $('.duotu').append("<div id='pt"+i+"'  class='pic'><a   class='button button-circle button-tiny xxt xxt"+i+"' style='font-size:18px;'>×</a><img  src="+'/uploads/'+data+"></div>");
+    $('.duotu').append("<div id='pt"+i+"'  class='pic dingwei'><a   class='button button-circle button-tiny xxt xxt"+i+"' style='font-size:18px;'>×</a><img  class='xz' src="+'/uploads/'+data+"></div>");
                var bb=$(".imgmore").attr('value');
                if(!bb){
                bb+=data; 

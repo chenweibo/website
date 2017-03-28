@@ -46,6 +46,8 @@ class Productlist extends Common
        
         $this->assign('pro',$pro);
         $this->assign('pid',input('pid'));
+        
+        $this->assign('httpref',$_SERVER['HTTP_REFERER']);
         $this->assign('keyword',input('keyword'));       
         return $this->fetch('productlist');
 
@@ -87,6 +89,7 @@ class Productlist extends Common
          $data['p_jintai']=input('p_jintai');         
          $data['imgmore']=input('imgmore');         
          $data['recommend']=input('recommend');
+         $data['gaishu']=input('gaishu');
          $data['lPath']=input('lPath');
          $stringArr = explode("-",$data['lPath']);
          $data['lid'] = $stringArr[count($stringArr)-1];
@@ -156,6 +159,7 @@ class Productlist extends Common
      $data['p_jintai']=input('p_jintai');   
      $data['imgmore']=input('imgmore');  
      $data['recommend']=input('recommend');
+     $data['gaishu']=input('gaishu');
      $data['lPath']=input('lPath');
      $stringArr = explode("-",$data['lPath']);
      $data['lid'] = $stringArr[count($stringArr)-1];
@@ -165,7 +169,7 @@ class Productlist extends Common
     
      $log= new Log;
      $log->createlog('更新','更新产品:'.$data['name']);
-     $this->redirect('Productlist/index');   
+     $this->redirect($_POST['httpref']);   
     }
 
     /**
@@ -182,7 +186,7 @@ class Productlist extends Common
 
     $log= new Log;
     $log->createlog('删除','删除产品:'.$user['name']);
-    $this->redirect('Productlist/index'); 
+    $this->redirect($_POST['httpref']);   
     }
 
         public function deletefinily($id)

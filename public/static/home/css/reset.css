@@ -1,135 +1,74 @@
- /* CSS RESET
- ===================================================================*/
-
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, /*p,*/ blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, /*ol, ul, li,*/
-fieldset, form, label, legend,
-/*table,*/ caption, tbody, tfoot, thead, tr, th, td {
-margin: 0;
-padding: 0;
-border: 0;
-outline: 0;
-/*font-size: 100%;*/
-/*vertical-align: baseline;*/
-/*background: transparent;*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+	font-family:"微软雅黑";
+	line-height:100%;
+	font-size:12px;
 }
-/*body {
-line-height: 1;
-}*/
-
-/*ol, ul {
-list-style: none;
-}*/
-/*blockquote, q {
-quotes: none;
+a {
+	text-decoration: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-content: '';
-}*/
-/* remember to define focus styles! */
-:focus {
-outline: 0;
+a,button,input{ 
+outline:none;
 }
-/* tables still need 'cellspacing="0"' in the markup */
-/*table {
-border-collapse: collapse;
-border-spacing: 0;
-}*/
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+fieldset, img {
+	border: 0;
 }
-body {
-	line-height: 1;
-	background: none repeat scroll 0 0 transparent;
-    border: 0 none;
-    font-size: 100%;
-    margin: 0;
-    outline: 0 none;
-    padding: 0;
-    vertical-align: baseline;
-}
-/*ol, ul {
-	list-style: none;
-}*/
-/*blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}*/
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+address, caption, cite, code, dfn, em, th, var {
+	font-style: normal;
+	font-weight: normal;
 }
 ol, ul {
-    list-style: none outside none;
-	/*margin:0;
-	padding:0;*/
+	list-style: none;
 }
-
-
-
-/*body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
-	margin:0;
-	padding:0;
-}*/
-html,body{
-	margin:0;
-	padding:0;
+caption, th {
+	text-align: left;
 }
-table {
-	border-collapse:collapse;
-	border-spacing:0;
+q:before, q:after {
+	content: '';
 }
-fieldset,img { 
-	border:0;
+abbr, acronym {
+	border: 0;
 }
-input{
-	border:1px solid #b0b0b0;
-	padding:3px 5px 4px;
-	color:#979797;
-	/*width:190px;*/
+/*通用父子盒子嵌套浮动问题解决，开始*/
+.clear {
+	margin: 0px auto;
+	width: 100%;
+	height: 1px;
+	font-size: 1px;
+	clear: both;
+	background: none;
+	overflow: hidden;
 }
-address,caption,cite,code,dfn,th,var {
-	font-style:normal;
-	font-weight:normal;
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
 }
-ol,ul {
-	list-style:none;
+.clearfix {
+	display: inline-block;
 }
-caption,th {
-	text-align:left;
+* html .clearfix {
+	height: 1%;
 }
-h1,h2,h3,h4,h5,h6 {
-	font-size:100%;
-	font-weight:normal;
+.clearfix {
+	display: block;
 }
-q:before,q:after {
-	content:'';
+/*通用父子盒子嵌套浮动问题解决，结束*/
+/*间隙层开始*/
+.space_hx { /*横向间隙*/
+	clear: both;
+	width: 100%;
+	height: 20px;
+	font-size: 1px;
+	overflow: hidden;
 }
-abbr,acronym { border:0;
+.space_zx { /*纵向间隙*/
+	float: left;
+	width: 10px;
+	font-size: 1px;
+	overflow: hidden;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+/*间隙层结束*/

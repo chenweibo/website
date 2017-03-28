@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>产品展示-{$system.title}</title>
+	<meta name="keywords" content="{$system.keywords}">
+	<meta name="description" content="{$system.description}">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	
+	<!-- include main css -->
+	<link rel="stylesheet" type="text/css" href="__home__/css/slick.css"/>	
+	<link rel="stylesheet" type="text/css" href="__home__/bootstrap3.37/css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="__home__/css/jquery.mmenu.all.css"/>
+	<link rel="stylesheet" type="text/css" href="__home__/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="__home__/css/reset.css"/>
+	<link rel="stylesheet" href="__home__/css/animates.css" />
+	<script src="__static__/js/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/r29/html5.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+</head>
+<body>
+	
+<div>
+	<!--header-->
+  {include  file="public/header" /}
+	  <script type="text/javascript">
+  	
+
+  	 $(".nav_ul li:eq(2)").addClass('active');
+  </script>	
+			
+	<!--banner-->
+	<section class="banner">
+	    <div><img src="__home__/images/pro_banner.jpg" alt=""></div>
+	</section>
+	<div class="com_zi clearfix">
+		<div class="left_zi">
+			<div class="top_com">
+				<span>产品展示</span>
+			</div>
+			<ul class="nav_left">
+			{volist name="pro" id="vo"}
+<li   >
+					<a href="/pro/{$vo.id}">{$vo.name}</a>		
+					 <div class="er">
+					{volist name="proall" id="v"}
+					      {if condition="$v.pid eq $vo.id"}
+					     <a                             
+      
+					      href="/pro/{$vo.id}/{$v.id}">>{$v.name}</a>
+					    {/if}
+					 {/volist}	
+					</div>					
+				</li>
+      	 {/volist}
+
+	 <script type="text/javascript">
+					
+         if($(".lanmu").is(".active")){
+            $(".active .er").addClass('xianshi');
+
+         }
+					
+				</script>			
+			
+			</ul>
+  {include  file="public/news" /} 
+		</div>
+		<div class="right_zi">
+			<div class="bar clearfix">
+				<span class="b_tt">搜索</span>
+				<span class="curbar"><i>您当前的位置：</i><a href="/">首页</a> 
+
+			
+
+
+				 </span>
+			</div>
+			<p class="pro_p">
+
+			</p>
+			<ul class="pro_zi_ul clearfix">
+
+                   {$c}
+				   {volist name="list" id="vo"}
+				<li>
+					<a href="/proshow/{$vo.id}/{:explode('-',$vo.lPath)['1']}" class="pic">
+						<img src="__home__/images/products_01.jpg" alt="" class="vcenter" />
+						<i></i>
+					</a>
+					<div class="text">
+						<p>{$vo.name}</p>
+						<a href="pro_show.html">VIEW MORE+</a>
+					</div>
+				</li>
+
+             {/volist}
+				
+			</ul>
+	
+		</div>
+	</div>
+
+
+
+{include  file="public/foot" /}
+
+<!--Include Js-->
+<script src="http://apps.bdimg.com/libs/jquery/1.8.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!--移动端导航-->
+<script src="__home__/js/jquery.mmenu.all.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="__home__/js/public.js" type="text/javascript" charset="utf-8"></script>
+
+<!--slick-->
+<script src="__home__/js/slick.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	    $(function(){
+		    $('.banner').slick({
+		        dots: true,
+		        autoplay:true,
+		        arrows:false,
+		        autoplaySpeed:3000,
+		    });
+		});
+</script>
+
+<!--placeholder-->
+<script src="__home__/js/jquery.placeholder.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function(){ $('input, textarea').placeholder(); });
+</script>
+
+<!--<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+
+</body>
+</html>

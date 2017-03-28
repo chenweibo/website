@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>产品中心-{$system.title}</title>
+<meta name="keywords" content="{$system.keywords}">
+<meta name="description" content="{$system.description}">
+<link href="__home__/css/reset.css" rel="stylesheet">
+<link href="__home__/css/thems.css" rel="stylesheet">
+<link href="__home__/css/responsive.css" rel="stylesheet">
+<link rel="shortcut icon" href="__home__/images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="__home__/css/swiper.min.css"/>
+<script src="__home__/js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="__home__/js/js_z.js"></script>
+
+</head>
+<body class="Inside">
+<!--头部-->
+ {include  file="public/header" /}
+
+
+<div class="header-bg"></div>
+<!--内容开始-->
+<div class="box_banner"><img src="__home__/images/box_banner_product.jpg" ></div>
+<div class="box-nav min-w">
+  <div class="container"> <a onClick="javascript :history.back(-1);" class="m-left"> <span class="ico"></span> </a>
+    <div class="m-right"> <span class="tit">产品中心</span> </div>
+    <div class="nav nav-about">
+
+    <a href="product.html">产品中心</a>
+    <a href="projects.html">工程案例</a>
+    </div>
+    <div class="location">当前位置：首页 <i>></i> 产品&amp;案例 <i>></i> 产品中心</div>
+  </div>
+</div>
+<script type="text/javascript">
+  var boxnav='0';
+  $('.nav-about a:eq('+boxnav+')').addClass("A");
+</script>
+<section class="product-box1 min-w clearfix">
+  <div class="container">
+    <div class="pro_menu">
+     
+       {volist name="pro" id="v" key="k"}
+
+      <dl {if condition="$v.id eq $tid" }class="on"{/if}>
+        <dt><em class="icon{$k}"></em><i></i><a class="show" href="/pro/{$v.id}">{$v.name}</a></dt>
+         <dd {if condition="$v.id eq $tid" }style="display:block;"{/if} >
+          {volist name="proall" id="vo" }
+             {if condition="$vo.pid eq $v.id"}
+         <a {if condition="$vo.id eq $cid" }class="on"{/if} href="/pro/{$v.id}/{$vo.id}">{$vo.name}</a>
+           {/if}
+            {/volist}
+         </dd>
+      </dl>
+
+      {/volist}
+   
+    </div>
+
+
+    <script type="text/javascript">
+
+    $('.pro_menu dt').click(function() {
+      $(this).parent().toggleClass('on').siblings().removeClass('on');
+      $(this).siblings('dd').slideToggle().parent().siblings('dl').find('dd').slideUp();
+    });
+    // 产品导航手机
+  $('.pro_menu p').unbind('click').click(function(){
+      if($(this).siblings('dl').is(':hidden')){
+        var img=$('.arrow1',this).attr('src').replace('.png','_on.png');
+        $('.arrow1',this).attr('src',img);
+      }
+      else{
+        var img=$('.arrow1',this).attr('src').replace('_on.png','.png');
+        $('.arrow1',this).attr('src',img);
+      }
+      $(this).siblings('dl').slideToggle();
+    });
+
+
+
+  </script>
+    <div class="pro_list">
+      <ul class="clearfix">
+
+        {volist name="list" id="v"}
+
+        <li><a href="/proshow/{$v.id}" title="{$v.name}"><span class="img"><span></span><img src="__home__/images/5.jpg" title="{$v.name}"></span>{$v.name}</a></li>
+
+        {/volist}
+       
+      </ul>
+      <img id="pro_more" class="more1 btn" src="__home__/images/more.png"> </div>
+    <script type="text/javascript">
+    $('.pro_list ul li a').hover(function(){
+    if($(this).find('.img p').length==0)$(this).find('.img').append('<p></p><span class="s1"><img src="__home__/images/pro_list_icon.png" /></span><span class="s2">查看链接</span>');
+    $(this).find('.img p').stop().animate({'opacity':'0.5','top':'0px'},300); 
+    $(this).find('.s1').stop().animate({'top':'60px'},200);
+    $(this).find('.s2').stop().animate({'top':'132px'},400);
+    },function(){
+    $(this).find('.img p').stop().animate({'opacity':'0','top':'-230px'},250);
+    $(this).find('.s1').stop().animate({'top':'235px'},350);
+    $(this).find('.s2').stop().animate({'top':'400px'},160);
+    });
+    </script> 
+  </div>
+</section>
+<!--内容结束-->
+
+ {include  file="public/foot" /}
+
+</body>
+</html>

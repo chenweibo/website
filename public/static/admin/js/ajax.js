@@ -87,7 +87,7 @@ $(".ut2").click(function(){
           processData: false,  
           success: function (data) {  
                
-               $('#photoCover').val('uploads/'+data); 
+               $('#photoCover').val('/uploads/'+data); 
           },  
           error: function () {  
               alert('上传错误联系管理员');  
@@ -120,7 +120,7 @@ $(".ut3").click(function(){
           processData: false,  
           success: function (data) {  
                
-               $('#photoCover1').val('uploads/'+data); 
+               $('#photoCover1').val('/uploads/'+data); 
           },  
           error: function () {  
               alert('上传错误联系管理员');  

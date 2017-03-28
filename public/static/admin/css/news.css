@@ -204,8 +204,12 @@ padding:0;
 
 
 
+
+
 .suolue:hover + .suolueft{display: block;}
 
-.filec{ padding:10px 0px 10px 0px;  border: none; }
+.duotu img{ margin-right: 5px; width: 100px; height: 100px; margin-bottom: 10px; border: 1px solid #f0f0f0; }
 
-.fileimg{border: 1px solid #f0f0f0; }
+.pic{width: 100px; height: 100px;position: relative; float: left; margin-right: 10px; margin-bottom: 10px}
+
+.xxt{position: absolute; right: -6px; top: -10px;}

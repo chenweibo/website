@@ -20,11 +20,10 @@ return [
         'fontSize' => 22, 
         // 是否画混淆曲线
         
-
          // 验证码图片高度
         'imageH'   => 44,
         // 验证码图片宽度
-        'imageW'   => 140, 
+        'imageW'   => 150, 
         // 验证码位数
         'length'   => 4, 
         // 验证成功后是否重置        
@@ -35,7 +34,7 @@ return [
     // 应用调试模式
     'app_debug'              => true,
     // 应用Trace
-    'app_trace'              => false,
+    'app_trace'              => true,
     // 应用模式状态
     'app_status'             => '',
     // 是否支持多模块

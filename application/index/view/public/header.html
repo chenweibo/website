@@ -1,0 +1,41 @@
+<div class="header">
+  <div class="head clearfix">
+    <div class="logo"><a href="/"><img src="__home__/images/logo.png" alt="良信"/></a></div>
+    <div class="nav_m">
+      <div class="n_icon">导航栏</div>
+      <ul class="nav clearfix">
+        <li id="menuA"><a href="/pro" class="icon">产品&amp;案例</a>
+          <div class="menuson">
+
+       {volist name="pro" id="v" key="k"}
+            <dl>
+              <dt><a href="/pro/{$v.id}">{$v.name}</a></dt>
+      
+           {volist name="proall" id="vo" }
+           {if condition="$vo.pid eq $v.id"}
+              <dd><a href="/pro/{$v.id}/{$vo.id}">{$vo.name}</a></dd>
+
+ {/if}
+            {/volist}
+      
+          
+            </dl>
+        {/volist}
+
+           
+          </div>
+        </li>
+        <li><a href="/about">关于良信</a></li>
+        <li><a href="/news" >新闻专区</a></li>
+        <li><a href="/service" >服务中心</a></li>
+        <li><a href="/contact">联系我们</a></li>
+      </ul>
+    </div>
+    <div class="search">
+      <form id="formsear" name="formsear" method="post" action="search.html"  onsubmit="if(document.getElementById('topkeys').value==''){alert('请输入产品关键词，进行查找！');return false;}">
+        <input name="keys" id="topkeys" type="text">
+        <input name="" type="submit" value="">
+      </form>
+    </div>
+  </div>
+</div>

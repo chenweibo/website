@@ -46,16 +46,19 @@ Route::resource('admin_slide','admin/Slide');
 
 
 Route::rule('/','index/Index/index');
+Route::get('pro/:tid/:cid','index/Pro/index');
+Route::get('pro/:tid','index/Pro/index');
 
-Route::get(':jin/:jint/:idname','index/Pro/pro_show');
-Route::get(':jin/:jint','index/Pro/pro2');
-Route::get(':jingtai','index/Pro/pro1');
+Route::get('proshow/:id','index/Pro/pro_show');
+// Route::get(':jin/:jint','index/Pro/pro2');
+// Route::get(':jingtai','index/Pro/pro1');
+
 Route::rule('pro','index/Pro/index');
 Route::alias('search','index/Index/search');
 
 return [
     '__pattern__' => [
-        'name' => '\w+',
+      
     ],
 
 

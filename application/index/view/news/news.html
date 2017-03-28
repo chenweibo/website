@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>新闻中心-{$system.title}</title>
+<meta charset=utf-8 >
+<meta name="robots" content="index, follow" >
+<meta name="keywords" content="{$system.keywords}" >
+<meta name="description" content="{$system.description}" >
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+
+<!-- CSS begin -->
+
+<link rel="stylesheet" type="text/css" href="__home__/css/style.css" >
+<link rel="stylesheet" type="text/css" href="__home__/css/skeleton.css" >
+<link rel="stylesheet" type="text/css" href="__home__/css/jquery.fancybox-1.3.4.css"  >
+<link rel="stylesheet" href="__home__/css/switcher/style.css">
+<link rel="stylesheet" href="__home__/css/layout/wide.css" id="layout">
+<link rel="stylesheet" href="__home__/css/colors/yellow.css" id="colors">
+<link rel="stylesheet" href="__home__/css/box.css" id="colors">
+
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie-warning.css" ><![endif]-->
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" media="screen" href="css/style-ie.css" /><![endif]-->
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ei8fix.css" ><![endif]-->
+
+<!-- CSS end -->
+
+<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+</head>
+<body>
+<div id="wrap" class="boxed">
+  <div class="grey-bg"> <!-- Grey bg  --> 
+    
+    <!-- HEADER -->
+      {include file="public:header" /}
+    
+    <!-- PAGE TITLE -->
+    <div class="container m-bot-35 clearfix">
+      <div class="sixteen columns">
+        <div class="page-title-container clearfix">
+          <h1 class="page-title">新闻资讯</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Grey bg end --> 
+  
+  <!-- CONTENT -->
+  <div class="container clearfix">
+    <div class="eleven columns m-bot-25"> 
+      <!-- BLOG ITEM -->
+
+      {volist name="list" id="v"}
+      <div class="blog-item m-bot-35 clearfix">
+        <div class="hover-item">
+          <div class="clearfix">
+            <div class="blog-item-date-inf-container left">
+              <div class="blog-item-date-cont">
+                <div class="blog-item-date">{:date("d",$v.createtime)}</div>
+                <div class="blog-item-mounth">{:date("m",$v.createtime)}</div>
+              </div>
+              <div>
+                <div class="blog-item-category-img"> <img src="__home__/images/icon-standart-post.png" alt="Ipsum" > </div>
+              </div>
+            </div>
+            <div class="view view-first">
+{if condition="$v.icon eq null"}
+{else /} <img src="/{$v.icon}" alt="Ipsum" >
+{/if} 
+
+              <div class="mask"></div>
+            </div>
+          </div>
+          <div class="blog-item-caption-container"> <a class="a-invert" href="news_show/{$v.id}" ><span class="bold">{$v.name}</a>
+            <div class="lp-item-container-border clearfix">
+              <div class="blog-info-container">
+                <ul class="clearfix">
+                  <li class="view">{$v.pageview}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog-item-text-container">
+          <p>{:mb_substr(strip_tags($v.info),0,200)}...</p>
+        </div>
+        <div class="lp-r-m-container right"> <a href="news_show/{$v.id}" class="button medium r-m-plus r-m-full">查看详情</a> </div>
+      </div>
+
+      {/volist}
+      
+      <!-- PAGINATION -->
+ <div>{$list->render()}</div>
+    </div>
+    
+    <!-- SIDEBAR --> 
+    
+  </div>
+  
+  <!-- LATEST WORK --> 
+  
+  <!-- FOOTER -->
+   {include file="public:foot" /}
+  <p id="back-top"> <a href="#top" title="Back to Top"><span></span></a> </p>
+</div>
+<!-- End wrap --> 
+<!-- JS begin --> 
+
+<script type="text/javascript" src="__home__/js/jquery-1.8.3.min.js"></script> 
+<script type="text/javascript" src="__home__/js/jquery.easing.1.3.js"></script> 
+<script type="text/javascript" src="__home__/js/superfish.js"></script> 
+<script type="text/javascript" src="__home__/js/jquery-ui.min.js"></script> 
+<script type="text/javascript" src="__home__/js/jquery.jcarousel.js"></script> 
+<script type="text/javascript" src="__home__/js/jquery.fancybox-1.3.4.pack.js"></script> 
+<script type="text/javascript" src="__home__/__home__/js/jQuery.BlackAndWhite.min.js"></script> 
+<script type="text/javascript" src="__home__/js/jquery.validate.min.js"></script> 
+<script type="text/javascript" src="__home__/js/jflickrfeed.min.js"></script> 
+<script type="text/javascript" src="__home__/js/jquery.quicksand.js"></script> 
+<script type="text/javascript" src="__home__/js/main.js"></script> 
+<script type="text/javascript" src="__home__/js/jquery-cookie.js"></script> 
+
+<!-- JS end -->
+  <script type="text/javascript">
+    
+    $(".sf-menu li:eq(8)").addClass("current");
+  </script>
+</body>
+</html>
